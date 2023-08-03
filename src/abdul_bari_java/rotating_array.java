@@ -14,7 +14,7 @@ public class rotating_array {
         }
         A[A.length-1]=temp;
         for(int j=0;j<A.length;j++){
-            System.out.print(A[j]+" ");
+            System.out.print(A[j]+",");
         }
         System.out.println("");
 
@@ -27,7 +27,7 @@ public class rotating_array {
         }
         B[0]=last;
         for(int l=0;l<B.length;l++){
-            System.out.print(B[l]+" ");
+            System.out.print(B[l]+",");
         }
 
     }
